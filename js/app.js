@@ -5,6 +5,7 @@ function getPin() {
         return pin;
     }
     else {
+
         // console.log('pin not 4 digit found', pin);
         return getPin();
     }
